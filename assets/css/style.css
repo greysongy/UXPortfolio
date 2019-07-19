@@ -128,3 +128,9 @@ footer {
       font-size: 25px;
       margin-top: 75px;
   }
+
+  #shortName {
+    font-family: 'Pacifico', cursive;  
+    font-size: 20px !important;
+    color: black;
+  }
