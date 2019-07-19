@@ -13,9 +13,9 @@ body {
     font-size: 60px;
 } */
 
-p {
+/* p {
     font-size: 200px;  
-}
+} */
 
 footer {
     background-color: white;
@@ -29,11 +29,11 @@ footer {
 
   .carouselContainer {
     margin: 0 auto;
-    width: 250px;
-    height: 200px;
+    width: 280px;
+    height: 168px;
     position: relative;
     perspective: 1000px;
-    margin-top: 150px;
+    margin-top: 50px;
   }
   
   .carousel {
@@ -48,8 +48,8 @@ footer {
     display: block;
     position: absolute;
     background: #000;
-    width: 250px;
-    height: 200px;
+    width: 280px;
+    height: 168px;
     line-height: 200px;
     font-size: 5em;
     text-align: center;
@@ -60,27 +60,27 @@ footer {
   
   .a {
     transform: rotateY(0deg) translateZ(250px);
-    background: #ed1c24;
+    /* background: #ffc0cb; */
   }
   .b {
     transform: rotateY(60deg) translateZ(250px);
-    background: #0072bc;
+    /* background: #0072bc; */
   }
   .c {
     transform: rotateY(120deg) translateZ(250px);
-    background: #39b54a;
+    /* background: #39b54a; */
   }
   .d {
     transform: rotateY(180deg) translateZ(250px);
-    background: #f26522;
+    /* background: #f26522; */
   }
   .e {
     transform: rotateY(240deg) translateZ(250px);
-    background: #630460;
+    /* background: #630460; */
   } 
   .f {
     transform: rotateY(300deg) translateZ(250px);
-    background: #8c6239;
+    /* background: #8c6239; */
   }
   
   .next, .prev {
@@ -114,4 +114,17 @@ footer {
   #fbPic {
       margin-top: 39px;
       margin-left: 20px;
+  }
+
+  #gmailPic {
+      margin-top: 39px;
+  }
+
+  #project {
+      font-size: 25px;
+  }
+
+  #description {
+      font-size: 25px;
+      margin-top: 75px;
   }
