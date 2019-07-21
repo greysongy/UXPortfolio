@@ -105,15 +105,18 @@ footer {
 
   #gitPic {
       margin-top: 25px;
+      margin-left: 40px;
   }
 
   #linkedInPic {
       margin-top: 40px;
+      margin-left: 50px;
   }
 
   #fbPic {
       margin-top: 39px;
-      margin-left: 20px;
+      margin-left: 40px;
+      /* transform: perspective(400px) rotateY(45deg); */
   }
 
   #gmailPic {
@@ -122,6 +125,7 @@ footer {
 
   #project {
       font-size: 25px;
+      /* color: #DA70D6; */
   }
 
   #description {
@@ -134,3 +138,56 @@ footer {
     font-size: 20px !important;
     color: black;
   }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .circular--square {
+    border-radius: 50%;
+  }
+
+  .blackBorder {
+      border-style: solid;
+      border-color: black;
+      
+  }
+
+  .logoImage {
+      margin-right: 50px;
+      margin-top: 40px;
+  }
+
+  .brownPic {
+    margin-right: 30px;
+    margin-top: 40px;
+}
+
+.outerPic {
+    transform: perspective(400px) rotateY(60deg);
+}
+
+.outerRight {
+    transform: perspective(400px) rotateY(-60deg);
+}
+
+.innerRight {
+    transform: perspective(400px) rotateY(50deg);
+}
+
+.innerLeft {
+    transform: perspective(400px) rotateY(-50deg);
+}
+
+.pacifico {
+    font-family: 'Pacifico', cursive;  
+    font-size: 20px !important;  
+}
+
+.upper {
+    margin-top: 50px;
+}
+
+.lower {
+    margin-top: 50px;
+}
