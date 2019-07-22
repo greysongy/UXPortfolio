@@ -172,11 +172,11 @@ footer {
 }
 
 .innerRight {
-    transform: perspective(400px) rotateY(50deg);
+    transform: perspective(400px) rotateY(45deg);
 }
 
 .innerLeft {
-    transform: perspective(400px) rotateY(-50deg);
+    transform: perspective(400px) rotateY(-45deg);
 }
 
 .pacifico {
@@ -191,3 +191,15 @@ footer {
 .lower {
     margin-top: 50px;
 }
+
+#mainContent {
+  display: none;
+}
+
+#loadContent {
+  display: unset;
+}
+
+/* .wrapper {
+  display: unset;
+} */
