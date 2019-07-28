@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="cube.css">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 
@@ -14,7 +17,7 @@
     <div id="Container">
         <div id="Tiles">
             <div class="title"></div>
-                <!-- <img class="inner" src="htmlPic.png"></div> -->
+            <!-- <img class="inner" src="htmlPic.png"></div> -->
             <!-- <div class = "title"></div> -->
             <div class="title">
                 <!-- <img class="inner" src="htmlPic.png"> -->
@@ -63,6 +66,15 @@
             </div>
         </div>
     </div>
+    <button id="clickthis">Click to Transform</button>
+    <script>
+        $("#clickthis").on("click", function () {
+            console.log("something");
+            $("#Tiles").css("margin-top", "100px");
+            $("#Tiles").css("-webkit-transition", "all 2s");
+            $('#Tiles').css("transform", "none");
+        })
+    </script>
 </body>
 
 </html>
