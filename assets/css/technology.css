@@ -49,7 +49,7 @@
 
   .title:before {
     position: absolute;
-    content: url("../images/python.png");
+    content: url("../images/javascript.jpg");
     display: "inline-block";
     /* transform: rotateZ(-45deg); */
     width: 100px;
