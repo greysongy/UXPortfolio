@@ -47,7 +47,7 @@
     border-width: thin; */
   }
 
-  .title:before {
+  .titleOne:before {
     position: absolute;
     content: url("../images/javascript.jpg");
     display: "inline-block";
@@ -67,8 +67,327 @@
     transition: all .3s;
     pointer-events: none;
   }
+
+  .titleTwo:before {
+    position: absolute;
+    content: url("../images/python.png");
+    display: "inline-block";
+    /* transform: rotateZ(-45deg); */
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-color: black;
+    border-style: solid;
+    border-width: thick;
+    /* border-color: black;
+    border-width: thick;
+    border-style: solid; */
+    /* background-image: url("htmlPic.png"); */
+
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    pointer-events: none;
+  }
+
+  .titleThree:before {
+    position: absolute;
+    content: url("../images/java.jpg");
+    display: "inline-block";
+    /* transform: rotateZ(-45deg); */
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-color: black;
+    border-style: solid;
+    border-width: thick;
+    /* border-color: black;
+    border-width: thick;
+    border-style: solid; */
+    /* background-image: url("htmlPic.png"); */
+
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    pointer-events: none;
+  }
+
+  .titleFour:before {
+    position: absolute;
+    content: url("../images/nodejs.jpg");
+    display: "inline-block";
+    /* transform: rotateZ(-45deg); */
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-color: black;
+    border-style: solid;
+    border-width: thick;
+    /* border-color: black;
+    border-width: thick;
+    border-style: solid; */
+    /* background-image: url("htmlPic.png"); */
+
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    pointer-events: none;
+  }
+
+  .titleFive:before {
+    position: absolute;
+    content: url("../images/htmlPic.png");
+    display: "inline-block";
+    /* transform: rotateZ(-45deg); */
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-color: black;
+    border-style: solid;
+    border-width: thick;
+    /* border-color: black;
+    border-width: thick;
+    border-style: solid; */
+    /* background-image: url("htmlPic.png"); */
+
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    pointer-events: none;
+  }
+
+  .titleSix:before {
+    position: absolute;
+    content: url("../images/react2.jpg");
+    display: "inline-block";
+    /* transform: rotateZ(-45deg); */
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-color: black;
+    border-style: solid;
+    border-width: thick;
+    /* border-color: black;
+    border-width: thick;
+    border-style: solid; */
+    /* background-image: url("htmlPic.png"); */
+
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    pointer-events: none;
+  }
+
+  .titleSeven:before {
+    position: absolute;
+    content: url("../images/jquery2.png");
+    display: "inline-block";
+    /* transform: rotateZ(-45deg); */
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-color: black;
+    border-style: solid;
+    border-width: thick;
+    /* border-color: black;
+    border-width: thick;
+    border-style: solid; */
+    /* background-image: url("htmlPic.png"); */
+
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    pointer-events: none;
+  }
+
+  .titleEight:before {
+    position: absolute;
+    content: url("../images/css.png");
+    display: "inline-block";
+    /* transform: rotateZ(-45deg); */
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-color: black;
+    border-style: solid;
+    border-width: thick;
+    /* border-color: black;
+    border-width: thick;
+    border-style: solid; */
+    /* background-image: url("htmlPic.png"); */
+
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    pointer-events: none;
+  }
+
+  .titleNine:before {
+    position: absolute;
+    content: url("../images/tensorflow.png");
+    display: "inline-block";
+    /* transform: rotateZ(-45deg); */
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-color: black;
+    border-style: solid;
+    border-width: thick;
+    /* border-color: black;
+    border-width: thick;
+    border-style: solid; */
+    /* background-image: url("htmlPic.png"); */
+
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    pointer-events: none;
+  }
+
+  .titleTen:before {
+    position: absolute;
+    content: url("../images/boostrap3.png");
+    display: "inline-block";
+    /* transform: rotateZ(-45deg); */
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-color: black;
+    border-style: solid;
+    border-width: thick;
+    /* border-color: black;
+    border-width: thick;
+    border-style: solid; */
+    /* background-image: url("htmlPic.png"); */
+
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    pointer-events: none;
+  }
+
+  .titleEleven:before {
+    position: absolute;
+    content: url("../images/express2.jpg");
+    display: "inline-block";
+    /* transform: rotateZ(-45deg); */
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-color: black;
+    border-style: solid;
+    border-width: thick;
+    /* border-color: black;
+    border-width: thick;
+    border-style: solid; */
+    /* background-image: url("htmlPic.png"); */
+
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    pointer-events: none;
+  }
+
+  .titleTwelve:before {
+    position: absolute;
+    content: url("../images/firebase.jpg");
+    display: "inline-block";
+    /* transform: rotateZ(-45deg); */
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-color: black;
+    border-style: solid;
+    border-width: thick;
+    /* border-color: black;
+    border-width: thick;
+    border-style: solid; */
+    /* background-image: url("htmlPic.png"); */
+
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    pointer-events: none;
+  }
+
+  .titleThirteen:before {
+    position: absolute;
+    content: url("../images/mongoose.png");
+    display: "inline-block";
+    /* transform: rotateZ(-45deg); */
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-color: black;
+    border-style: solid;
+    border-width: thick;
+    /* border-color: black;
+    border-width: thick;
+    border-style: solid; */
+    /* background-image: url("htmlPic.png"); */
+
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    pointer-events: none;
+  }
+
+  .titleFourteen:before {
+    position: absolute;
+    content: url("../images/mongo.png");
+    display: "inline-block";
+    /* transform: rotateZ(-45deg); */
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-color: black;
+    border-style: solid;
+    border-width: thick;
+    /* border-color: black;
+    border-width: thick;
+    border-style: solid; */
+    /* background-image: url("htmlPic.png"); */
+
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    pointer-events: none;
+  }
+
+  .titleFifteen:before {
+    position: absolute;
+    content: url("../images/mysql.jpg");
+    display: "inline-block";
+    /* transform: rotateZ(-45deg); */
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-color: black;
+    border-style: solid;
+    border-width: thick;
+    /* border-color: black;
+    border-width: thick;
+    border-style: solid; */
+    /* background-image: url("htmlPic.png"); */
+
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    pointer-events: none;
+  }
+
+  .titleSixteen:before {
+    position: absolute;
+    content: url("../images/sequelize.jpg");
+    display: "inline-block";
+    /* transform: rotateZ(-45deg); */
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-color: black;
+    border-style: solid;
+    border-width: thick;
+    /* border-color: black;
+    border-width: thick;
+    border-style: solid; */
+    /* background-image: url("htmlPic.png"); */
+
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    pointer-events: none;
+  }
+
+  /* #one {
+    content: url("../images/sequelize.jpg");
+  } */
   .title:hover:before {
-    background: #ffc600;
+    background: white;
   -webkit-transform: translate3d(0, 0, 20px);
   transform: translate3d(0, 0, 20px);
   box-shadow: 30px 30px 10px rgba(0, 0, 0, 0.5);
