@@ -113,7 +113,7 @@ function rotate(e){
     $("#projectText").text("PageRank");
     $("#codeLink").hide();
     $("#codeShow").text("Code Upon Request");
-    $("#codeDescription").text("Implemented directed graph and Google's PageRank algorithm w/ adjacency matrix");
+    $("#codeDescription").text("Google's PageRank algorithm implemented on a directed graph built w/ adjacency matrix");
   }
 
   function othello() {
