@@ -120,6 +120,6 @@ function rotate(e){
     $("#projectText").text("Othello");
     $("#codeLink").hide();
     $("#codeShow").text("Code Upon Request");
-    $("#codeDescription").text("Othello w/ varying levels of AI computer players");
+    $("#codeDescription").text( "Othello w/ varying levels of AI computer players");
   }
 }
