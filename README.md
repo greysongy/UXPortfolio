@@ -3,4 +3,4 @@
 
 ![Portfolio Image](assets/images/portfolioPic.png)
 
-Disclaimers: not fully mobile-responsive
+Disclaimer: not fully mobile-responsive
