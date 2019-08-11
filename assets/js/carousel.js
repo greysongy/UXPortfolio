@@ -31,8 +31,8 @@ function rotate(e){
         decisionTree();
         break;
       case 120: 
-        console.log("Tetris");
-        tetris();
+        console.log("Fridge");
+        fridge();
         break;
       case 180: 
         console.log("Finfo");
@@ -69,8 +69,8 @@ function rotate(e){
         finfo();
         break;
       case 240: 
-        console.log("Tetris");
-        tetris();
+        console.log("Fridge");
+        fridge();
         break;
       case 300: 
         console.log("Decision Tree");
@@ -94,11 +94,14 @@ function rotate(e){
     $("#codeDescription").text("Machine Learning implementation of ID3 Algorithm w/ > 95% accuracy on test data");
   }
 
-  function tetris() {
-    $("#projectText").text("Tetris");
-    $("#codeLink").hide();
-    $("#codeShow").text("Code Upon Request");
-    $("#codeDescription").text("Java application version of classic Tetris w/ acclerated levels and speed");
+  function fridge() {
+    $("#projectText").text("Fridge");
+    // $("#codeLink").hide();
+    // $("#codeShow").text("Code Upon Request");
+    $("#codeShow").text("Git Repo: ");
+    $("#codeLink").attr("href", "https://github.com/greysongy/virtual-fridge");
+    $("#codeLink").show();
+    $("#codeDescription").text("Virtual Fridge to store ingredients and look up recipes");
   }
 
   function finfo() {
