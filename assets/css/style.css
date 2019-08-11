@@ -26,9 +26,18 @@ footer {
   width: 100%;
 } */
 
+.push {
+  height: 50px;
+}
+
+#centralContent {
+  overflow: scroll;
+}
+
 #page-container {
   position: relative;
   min-height: 100vh;
+  overflow: scroll;
 }
 
 #content-wrap {
@@ -150,6 +159,7 @@ footer {
 #description {
     font-size: 25px;
     margin-top: 75px;
+    overflow: scroll;
 }
 
 #shortName {
