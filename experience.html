@@ -14,145 +14,147 @@
     <!-- <link href = "assets/css/reset.css" rel = "stylesheet"> -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/cardStyling.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/experienceResponsive.css">
     <title>Portfolio Page</title>
 </head>
 
 <body>
+    <div id="page-container">
+        <div id="content-wrap">
+            <nav class="navbar navbar-light navbar-expand-lg"
+                style="background-color: white; font-family: 'Pacifico', cursive;">
+                <!-- <a class="navbar-brand abs" href="#">Greyson Gerhard-Young</a> -->
 
-    <nav class="navbar navbar-light navbar-expand-lg"
-        style="background-color: white; font-family: 'Pacifico', cursive;">
-        <!-- <a class="navbar-brand abs" href="#">Greyson Gerhard-Young</a> -->
+                <div class="d-flex flex-grow-1">
+                    <span class="w-100 d-lg-none d-block">
+                        <!-- hidden spacer to center brand on mobile --></span>
+                    <a class="navbar-brand d-none d-lg-inline-block" id="name" href="#">
+                        Greyson Gerhard-Young
+                    </a>
+                    <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" id="shortName" href="#">
+                        Greyson
+                    </a>
+                    <div class="w-100 text-right">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+                    <ul class="navbar-nav ml-auto flex-nowrap">
+                        <li class="nav-item">
+                            <a href="technologies.html" class="nav-link m-2 menu-item nav-active ">Technologies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="experience.html" class="nav-link m-2 menu-item">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link m-2 menu-item">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="connect.html" class="nav-link m-2 menu-item">Connect</a>
+                        </li>
+                    </ul>
+                </div>
 
-        <div class="d-flex flex-grow-1">
-            <span class="w-100 d-lg-none d-block">
-                <!-- hidden spacer to center brand on mobile --></span>
-            <a class="navbar-brand d-none d-lg-inline-block" id="name" href="#">
-                Greyson Gerhard-Young
-            </a>
-            <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" id="shortName" href="#">
-                Greyson
-            </a>
-            <div class="w-100 text-right">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-        </div>
-        <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
-            <ul class="navbar-nav ml-auto flex-nowrap">
-                <li class="nav-item">
-                    <a href="technologies.html" class="nav-link m-2 menu-item nav-active ">Technologies</a>
-                </li>
-                <li class="nav-item">
-                    <a href="experience.html" class="nav-link m-2 menu-item">Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link m-2 menu-item">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a href="connect.html" class="nav-link m-2 menu-item">Connect</a>
-                </li>
-            </ul>
-        </div>
+            </nav>
 
-    </nav>
-
-    <div class="col-md-12" id="logoWrapper">
-        <div  class="d-flex justify-content-center mt-3" style="font-family: 'Pacifico', cursive;">
-            <h4>Click to explore an experience</h4>
-        </div>
-        <div class="row d-flex justify-content-center">
-            <div class="cards-wrapper ml-5">
-                <div class="card-container">
-                    <div class="card" id="iibaCard">
-                        <div class="card-contents card-frontOne">
-                            <div class="card-depth">
+            <div class="col-md-12" id="logoWrapper">
+                <div class="d-flex justify-content-center mt-3" style="font-family: 'Pacifico', cursive;">
+                    <h4>Click to explore an experience</h4>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="cards-wrapper d-flex justify-content-center mx-3">
+                        <div class="card-container">
+                            <div class="card" id="iibaCard">
+                                <div class="card-contents card-frontOne">
+                                    <div class="card-depth">
+                                    </div>
+                                </div>
+                                <div class="card-contents card-back">
+                                    <div class="card-depth">
+                                        <p style="font-family: 'Pacifico', cursive;">Client Interviews</p>
+                                        <hr>
+                                        <p style="font-family: 'Pacifico', cursive;">I-130/I-485s</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="card-contents card-back">
-                            <div class="card-depth">
-                                <p style = "font-family: 'Pacifico', cursive;">Client Interviews</p>
-                                <hr>
-                                <p style = "font-family: 'Pacifico', cursive;">I-130/I-485s</p>
+                    </div>
+                    <div class="cards-wrapper d-flex justify-content-center mx-3">
+                        <div class="card-container">
+                            <div class="card" id="consultingCard">
+                                <div class="card-contents card-frontTwo">
+                                    <div class="card-depth">
+                                    </div>
+                                </div>
+                                <div class="card-contents card-back">
+                                    <div class="card-depth">
+                                        <p style="font-family: 'Pacifico', cursive;">Consulting Director</p>
+                                        <hr>
+                                        <p style="font-family: 'Pacifico', cursive;">Nonprofits/Social Enterprises</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards-wrapper d-flex justify-content-center mx-3">
+                        <div class="card-container">
+                            <div class="card" id="brownCard">
+                                <div class="card-contents card-frontThree">
+                                    <div class="card-depth">
+                                    </div>
+                                </div>
+                                <div class="card-contents card-back">
+                                    <div class="card-depth">
+                                        <p style="font-family: 'Pacifico', cursive;">Computer Science-Economics</p>
+                                        <hr>
+                                        <p style="font-family: 'Pacifico', cursive;">GPA: 3.8</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards-wrapper d-flex justify-content-center mx-3">
+                        <div class="card-container">
+                            <div class="card" id="vcCard">
+                                <div class="card-contents card-frontFour">
+                                    <div class="card-depth">
+                                    </div>
+                                </div>
+                                <div class="card-contents card-back">
+                                    <div class="card-depth">
+                                        <p style="font-family: 'Pacifico', cursive;">Data Team</p>
+                                        <hr>
+                                        <p style="font-family: 'Pacifico', cursive;">Interview Team</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards-wrapper d-flex justify-content-center mx-3">
+                        <div class="card-container">
+                            <div class="card" id="calCard">
+                                <div class="card-contents card-frontFive">
+                                    <div class="card-depth">
+                                    </div>
+                                </div>
+                                <div class="card-contents card-back">
+                                    <div class="card-depth">
+                                        <p style="font-family: 'Pacifico', cursive;">Full-Stack Dev</p>
+                                        <hr>
+                                        <p style="font-family: 'Pacifico', cursive;">MERN Applications</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="cards-wrapper ml-5">
-                <div class="card-container">
-                    <div class="card" id="consultingCard">
-                        <div class="card-contents card-frontTwo">
-                            <div class="card-depth">
-                            </div>
-                        </div>
-                        <div class="card-contents card-back">
-                            <div class="card-depth">
-                                <p style = "font-family: 'Pacifico', cursive;">Consulting Director</p>
-                                <hr>
-                                <p style = "font-family: 'Pacifico', cursive;">Nonprofits/Social Enterprises</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cards-wrapper ml-5">
-                <div class="card-container">
-                    <div class="card" id="brownCard">
-                        <div class="card-contents card-frontThree">
-                            <div class="card-depth">
-                            </div>
-                        </div>
-                        <div class="card-contents card-back">
-                            <div class="card-depth">
-                                <p style = "font-family: 'Pacifico', cursive;">Computer Science-Economics</p>
-                                <hr>
-                                <p style = "font-family: 'Pacifico', cursive;">GPA: 3.8</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cards-wrapper ml-5">
-                <div class="card-container">
-                    <div class="card" id="vcCard">
-                        <div class="card-contents card-frontFour">
-                            <div class="card-depth">
-                            </div>
-                        </div>
-                        <div class="card-contents card-back">
-                            <div class="card-depth">
-                                <p style = "font-family: 'Pacifico', cursive;">Data Team</p>
-                                <hr>
-                                <p style = "font-family: 'Pacifico', cursive;">Interview Team</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cards-wrapper ml-5">
-                <div class="card-container">
-                    <div class="card" id="calCard">
-                        <div class="card-contents card-frontFive">
-                            <div class="card-depth">
-                            </div>
-                        </div>
-                        <div class="card-contents card-back">
-                            <div class="card-depth">
-                                <p style = "font-family: 'Pacifico', cursive;">Full-Stack Dev</p>
-                                <hr>
-                                <p style = "font-family: 'Pacifico', cursive;">MERN Applications</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <div class="container">
-        <div class="col-md-12 d-flex justify-content-center">
-            <!-- <div class="cards-wrapper">
+            <div class="container">
+                <div class="col-md-12 d-flex justify-content-center">
+                    <!-- <div class="cards-wrapper">
                         <div class="card-container">
                             <div class="card">
                                 <div class="card-contents card-front">
@@ -169,23 +171,26 @@
                             </div>
                         </div>
                     </div> -->
-            <!-- <img class="circular--square brownPic" src="assets/images/iibaPic.jpeg">
+                    <!-- <img class="circular--square brownPic" src="assets/images/iibaPic.jpeg">
             <img class="circular--square brownPic" src="assets/images/brownPic1.png">
             <img class="circular--square logoImage" src="assets/images/180pic.png">
             <img class="logoImage" src="assets/images/vcInclusionLab.jpeg">
             <img class="logoImage" src="assets/images/calLogo.png"> -->
+                </div>
+            </div>
         </div>
-    </div>
 
-    <footer class="d-flex justify-content-center">
-        <a id="gmailPic" class="" href="mailto:greyson_gerhard-young@brown.edu" target="_blank"><img
-                src="assets/images/bwGmail.jpeg"></a>
-        <a id="linkedInPic" class="" href="https://www.linkedin.com/in/greyson-gerhard-young/" target="_blank"><img
-                src="assets/images/linkedInBW.png"></a>
-        <a id="gitPic" href="https://github.com/greysongy" target="_blank"><img src="assets/images/gitLogo.png"></a>
-        <a id="fbPic" class="" href="https://www.facebook.com/people/Greyson-Gerhard-Young/100011415572276"
-            target="_blank"><img src="assets/images/fbBW.png"></a>
-    </footer>
+        <footer class="d-flex justify-content-center">
+            <a id="gmailPic" class="" href="mailto:greyson_gerhard-young@brown.edu" target="_blank"><img id="innerGPic"
+                    src="assets/images/bwGmail.jpeg" alt="gmail"></a>
+            <a id="linkedInPic" class="" href="https://www.linkedin.com/in/greyson-gerhard-young/" target="_blank"><img
+                    id="innerLPic" src="assets/images/linkedInBW.png" alt='linkedin'></a>
+            <a id="gitPic" href="https://github.com/greysongy" target="_blank"><img id="innerGitPic"
+                    src="assets/images/gitLogo.png" alt="git"></a>
+            <a id="fbPic" class="" href="https://www.facebook.com/people/Greyson-Gerhard-Young/100011415572276"
+                target="_blank"><img id="innerFPic" src="assets/images/fbBW.png" alt="facebook"></a>
+        </footer>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"

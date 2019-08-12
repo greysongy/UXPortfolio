@@ -1,0 +1,35 @@
+@media screen and (max-width: 1125px) {
+    /* #gmailPic {
+        width: 50px;
+        height: 50px;
+    } */
+
+    #innerGPic {
+        width: 65px;
+        height: 50px;
+    }
+
+    #innerLPic {
+        width: 50px;
+        height: 50px;
+    }
+
+    #innerFPic {
+        width: 50px;
+        height: 50px;
+    }
+
+    #innerGitPic {
+        width: 75px;
+        height: 75px;
+    }
+
+    footer {
+        height: 50px;
+    }
+
+    /* body {
+        background-color: orange;
+    } */
+
+  }
