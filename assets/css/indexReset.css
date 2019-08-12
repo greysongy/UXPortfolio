@@ -28,6 +28,10 @@
         visibility: hidden;
     }
 
+    footer {
+        height: 100px;
+    }
+
   }
 
   @media screen and (max-width: 975px) {
@@ -45,10 +49,6 @@
         /* margin-bottom: 300px; */
         /* top: 200px; */
         top: 75px;
-    }
-    
-    footer {
-        height: 100px;
     }
 
   }
