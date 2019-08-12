@@ -3,18 +3,6 @@
     perspective: 1000px;
     
   }
-  /* #Tiles {
-    width: 630px;
-    height: 630px;
-    position: absolute;
-    left: 50%;
-    top: -100px;
-    margin-left: -315px;
-    -webkit-transform: rotateZ(0deg);
-    transform: rotateX(75deg) rotateY(0deg) rotateZ(45deg);
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-  } */
 
   #Tiles {
     width: 440px;

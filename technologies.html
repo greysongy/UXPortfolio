@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!-- <link href = "assets/css/reset.css" rel = "stylesheet"> -->
@@ -20,11 +19,10 @@
 <body>
     <nav class="navbar navbar-light navbar-expand-lg"
         style="background-color: white; font-family: 'Pacifico', cursive;">
-        <!-- <a class="navbar-brand abs" href="#">Greyson Gerhard-Young</a> -->
 
         <div class="d-flex flex-grow-1">
             <span class="w-100 d-lg-none d-block">
-                <!-- hidden spacer to center brand on mobile --></span>
+            </span>
             <a class="navbar-brand d-none d-lg-inline-block" id="name" href="#">
                 Greyson Gerhard-Young
             </a>
@@ -38,7 +36,7 @@
             </div>
         </div>
         <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
-            <ul class="navbar-nav ml-auto flex-nowrap">
+            <ul id="innerNav" class="navbar-nav ml-auto flex-nowrap">
                 <li class="nav-item">
                     <a href="technologies.html" class="nav-link m-2 menu-item nav-active ">Technologies</a>
                 </li>
@@ -55,6 +53,47 @@
         </div>
 
     </nav>
+
+    <div class="modal" tabindex="-1" role="dialog" id="myModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a href="#" class="navbar-brand">
+            Greyson Gerhard-Young
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="navbar-nav">
+
+        </div>
+        <div class="navbar-nav ml-auto">
+            <a href="#" class="nav-item nav-link">Technologies</a>
+            <a href="#" class="nav-item nav-link">Technologies</a>
+            <a href="#" class="nav-item nav-link">Technologies</a>
+            <a href="#" class="nav-item nav-link">Technologies</a>
+        </div>
+
+    </nav> -->
 
 
     <div id="Container" class="d-flex justify-content-center mt-4">
@@ -109,27 +148,6 @@
             </div>
         </div>
     </div>
-    <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
-        <ul class="navbar-nav ml-auto flex-nowrap">
-            <li class="nav-item">
-                <a href="technologies.html" class="nav-link m-2 menu-item nav-active ">Technologies</a>
-            </li>
-            <li class="nav-item">
-                <a href="experience.html" class="nav-link m-2 menu-item">Experience</a>
-            </li>
-            <li class="nav-item">
-                <a href="index.html" class="nav-link m-2 menu-item">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a href="connect.html" class="nav-link m-2 menu-item">Connect</a>
-            </li>
-        </ul>
-    </div>
-
-    </nav>
-
-
-
 
     <footer class="d-flex justify-content-center">
         <a id="gmailPic" class="" href="mailto:greyson_gerhard-young@brown.edu" target="_blank"><img
@@ -141,9 +159,27 @@
             target="_blank"><img src="assets/images/fbBW.png"></a>
     </footer>
 
-    <script
-        src = "assets/js/technologies.js"></script>
-   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/technologies.js"></script>
+    <script>
+        $(".navbar-toggler").on("click", function () {
+            console.log("The small navbar was clicked");
+            // $("#Container").css("visibility", "hidden");
+            // $("#innerNav").css("visibility", "visible");
+        })
+
+        $(".title").on("click", function () {
+            console.log("A tech button was clicked");
+            $("#myModal").modal('toggle');
+        })
+    </script>
+
+
 
 </body>
 
