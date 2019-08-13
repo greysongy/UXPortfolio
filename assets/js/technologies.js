@@ -19,9 +19,37 @@ const tech = [
     {
         name: "Javascript",
         image: "javascript.jpg",
-        details: ["Comfortable with ES5 and ES6", "Experience client and server side", "Often used in conjuction with libraries like JQuery and React"],
+        details: ["Used in tandem with Ajax and Axios for application routing and API integration", "Built distinct front-end UIs with React components and JQuery DOM manipulation", "Coded server-side algorithmic logic for multiple applications"],
         projects: [finfo],
         descriptions: ["Used in conjunction with JQuery to modify DOM elements/retrieve API calls"]
+    }, 
+    {
+        name: "Python",
+        image: "python.png",
+        details: ["Implemented numerous variations of classic algorithms with strong runtime considerations", "Worked with data structures (examples include stacks, priority queues, dictionaries, BSTs, DAGs, MSTs, etc.)", "Some experience building small-scale applications with Django and Flask"],
+        projects: [],
+        descriptions: []
+    }, 
+    {
+        name: "Java",
+        image: "java.jpg",
+        details: ["Designed elaborate applications using object-oriented paradigm", "Implemented complex algorithms (machine learning variants, PageRank, etc.) with rigorous unit testing", "Used JavaFX to design GUIs for multiple interactive applications"],
+        projects: [],
+        descriptions: []
+    }, 
+    {
+        name: "Node.js",
+        image: "nodejs.jpg",
+        details: ["Built multiple coupled applications with node facilitating back-end servers", "Used in tandem with multiple npm packages to provide interactive functionality for users", "Unified distinct features of MVC applications under a single programming language paradigm"],
+        projects: [],
+        descriptions: []
+    }, 
+    {
+        name: "HTML",
+        image: "htmlPic.png",
+        details: ["Styled front-end designs with intrinsic HTML elements", "Used in tandem with DOM manipulation libraries like JQuery", "Applied principles to frameworks with similar syntax, like React's JSX"],
+        projects: [],
+        descriptions: []
     }
 ]
 
@@ -44,6 +72,9 @@ function displayTech(index) {
     $("#ttitle").text(element.name);
     $("#tlogo").attr('src', "assets/images/" + element.image);
     console.log("projects", element.projects);
+    for(var j = 0; j < element.details.length; j++) {
+        $("#skillsList").append(`<li>${element.details[j]}</li>`)
+    }
     for (var i = 0; i < element.projects.length; i++) {
         console.log("This ran for", i);
         var newCard = $(`<div class='card'>
@@ -60,6 +91,7 @@ function displayTech(index) {
 }
 
 function emptyCards() {
+    $("#skillsList").empty();
     for(var i = 0; i < 6; i++) {
         $("#section" + i).empty();
     }

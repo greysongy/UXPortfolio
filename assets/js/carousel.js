@@ -80,7 +80,7 @@ function rotate(e) {
   }
 
   function bestGig() {
-    $("#projectText").text("Best Gig");
+    $("#projectText").text("BestGig");
     $("#codeShow").text("Git Repo: ");
     $("#codeLink").attr("href", "https://github.com/greysongy/BestGig");
     $("#codeLink").show();
@@ -91,7 +91,7 @@ function rotate(e) {
     $("#projectText").text("Decision Tree");
     $("#codeLink").hide();
     $("#codeShow").text("Code Upon Request");
-    $("#codeDescription").text("Machine Learning implementation of ID3 Algorithm w/ > 95% accuracy on test data");
+    $("#codeDescription").text("Machine Learning implementation of ID3 Algorithm with > 95% accuracy on test data");
   }
 
   function fridge() {
@@ -116,14 +116,14 @@ function rotate(e) {
     $("#projectText").text("PageRank");
     $("#codeLink").hide();
     $("#codeShow").text("Code Upon Request");
-    $("#codeDescription").text("Google's PageRank algorithm implemented on a directed graph built w/ adjacency matrix");
+    $("#codeDescription").text("Google's PageRank algorithm implemented on a directed graph built with adjacency matrix");
   }
 
   function othello() {
     $("#projectText").text("Othello");
     $("#codeLink").hide();
     $("#codeShow").text("Code Upon Request");
-    $("#codeDescription").text("Othello w/ varying levels of AI computer players");
+    $("#codeDescription").text("Othello with varying levels of AI computer players");
   }
 }
 
