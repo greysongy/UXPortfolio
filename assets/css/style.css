@@ -242,3 +242,7 @@ display: unset;
 .imgBorder {
   border-width: 5px;   border-color: black;   border-style: solid;
 }
+
+.styledText {
+  font-family: 'Playfair Display', serif;
+}

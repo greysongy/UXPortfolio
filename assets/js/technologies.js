@@ -48,8 +48,8 @@ function displayTech(index) {
         var newCard = $(`<div class='card'>
             <img class= 'card-img-top' src = ${'assets/images/' + element.projects[i].image} alt = 'Card image cap' >
             <div class='card-body'>
-                <h5 class='card-title'>${element.projects[i].name}</h5>
-                <p class='card-text'>${element.descriptions[i]}</p>
+                <h3 class='card-title styledText'>${element.projects[i].name}</h3>
+                <p class='card-text styledText'>${element.descriptions[i]}</p>
                 <a href='#' class='btn btn-primary'>Go somewhere</a>
             </div>
     </div > `);
