@@ -9,3 +9,53 @@ function transform() {
 }
 
 transform();
+
+const finfo = {
+    name: "Finfo",
+    image: "finfo2.png"
+}
+
+const tech = [
+    {
+        name: "Javascript",
+        image: "javascript.jpg",
+        details: ["Comfortable with ES5 and ES6", "Experience client and server side", "Often used in conjuction with libraries like JQuery and React"],
+        projects: [finfo],
+        descriptions: ["Used in conjunction with JQuery to modify DOM elements/retrieve API calls"]
+    }
+]
+
+$(".navbar-toggler").on("click", function () {
+    console.log("The small navbar was clicked");
+    // $("#Container").css("visibility", "hidden");
+    // $("#innerNav").css("visibility", "visible");
+})
+
+$(".title").on("click", function () {
+    // console.log("A tech button was clicked");
+    displayTech(this.dataset.index)
+    $("#myModal").modal('toggle');
+    // console.log("Data attribute" + this.dataset.index);
+})
+
+function displayTech(index) {
+    var element = tech[index];
+    $("#ttitle").text(element.name);
+    $("#tlogo").attr('src', "assets/images/" + element.image);
+    console.log("projects", element.projects);
+    for (var i = 0; i < element.projects.length; i++) {
+        console.log("This ran for", i);
+        var newCard = $(`<div class='card'>
+            <img class= 'card-img-top' src = ${'assets/images/' + element.projects[i].image} alt = 'Card image cap' >
+            <div class='card-body'>
+                <h5 class='card-title'>${element.projects[i].name}</h5>
+                <p class='card-text'>${element.descriptions[i]}</p>
+                <a href='#' class='btn btn-primary'>Go somewhere</a>
+            </div>
+    </div > `);
+        $("#section" + i).append(newCard);
+        // $("section1").append("<p>Test text</p>");
+    }
+}
+
+

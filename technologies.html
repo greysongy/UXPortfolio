@@ -10,6 +10,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/techResponsive.css">
     <!-- <link href = "assets/css/reset.css" rel = "stylesheet"> -->
@@ -82,9 +83,9 @@
                 <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                         <nav class="navbar navbar-light bg-light">
-                            <h1 style="font-family: 'Pacifico', cursive">React</h1>
+                            <h1 style="font-family: 'Pacifico', cursive" id = "ttitle">React</h1>
                             <a class="navbar-brand" href="#">
-                                <img src="assets/images/react2.jpg" class="d-inline-block align-top imgBorder" alt="">
+                                <img id = "tlogo" src="assets/images/react2.jpg" class="d-inline-block align-top imgBorder" alt="">
                             </a>
                         </nav>
                         <div class="container">
@@ -115,8 +116,8 @@
                                     <h2 style="font-family: 'Pacifico', cursive">Featured Projects</h2>
                                 </div>
                                 <div class="row mt-3">
-                                    <div class="col-md-4">
-                                        <div class="card">
+                                    <div class="col-md-4" id = "section0">
+                                        <!-- <div class="card">
                                             <img class="card-img-top" src="assets/images/RecipePage.PNG" alt="Card image cap">
                                             <div class="card-body">
                                                 <h5 class="card-title">Card title</h5>
@@ -124,10 +125,10 @@
                                                     and make up the bulk of the card's content.</p>
                                                 <a href="#" class="btn btn-primary">Go somewhere</a>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
-                                    <div class="col-md-4">
-                                        <div class="card">
+                                    <div class="col-md-4" id = "section1">
+                                        <!-- <div class="card">
                                             <img class="card-img-top" src="assets/images/RecipePage.PNG" alt="Card image cap">
                                             <div class="card-body">
                                                 <h5 class="card-title">Card title</h5>
@@ -135,10 +136,10 @@
                                                     and make up the bulk of the card's content.</p>
                                                 <a href="#" class="btn btn-primary">Go somewhere</a>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
-                                    <div class="col-md-4">
-                                        <div class="card">
+                                    <div class="col-md-4" id = "section2">
+                                        <!-- <div class="card">
                                             <img class="card-img-top" src="assets/images/RecipePage.PNG" alt="Card image cap">
                                             <div class="card-body">
                                                 <h5 class="card-title">Card title</h5>
@@ -146,12 +147,12 @@
                                                     and make up the bulk of the card's content.</p>
                                                 <a href="#" class="btn btn-primary">Go somewhere</a>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                                 <div class="row mt-3">
-                                    <div class="col-md-4">
-                                        <div class="card">
+                                    <div class="col-md-4" id = "section3">
+                                        <!-- <div class="card">
                                             <img class="card-img-top" src="assets/images/RecipePage.PNG" alt="Card image cap">
                                             <div class="card-body">
                                                 <h5 class="card-title">Card title</h5>
@@ -159,10 +160,10 @@
                                                     and make up the bulk of the card's content.</p>
                                                 <a href="#" class="btn btn-primary">Go somewhere</a>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
-                                    <div class="col-md-4">
-                                        <div class="card">
+                                    <div class="col-md-4" id = "section4">
+                                        <!-- <div class="card">
                                             <img class="card-img-top" src="assets/images/RecipePage.PNG" alt="Card image cap">
                                             <div class="card-body">
                                                 <h5 class="card-title">Card title</h5>
@@ -170,10 +171,10 @@
                                                     and make up the bulk of the card's content.</p>
                                                 <a href="#" class="btn btn-primary">Go somewhere</a>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
-                                    <div class="col-md-4">
-                                        <div class="card">
+                                    <div class="col-md-4" id = "section5">
+                                        <!-- <div class="card">
                                             <img class="card-img-top" src="assets/images/RecipePage.PNG" alt="Card image cap">
                                             <div class="card-body">
                                                 <h5 class="card-title">Card title</h5>
@@ -181,7 +182,7 @@
                                                     and make up the bulk of the card's content.</p>
                                                 <a href="#" class="btn btn-primary">Go somewhere</a>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>
@@ -214,52 +215,52 @@
 
             <div id="Container" class="d-flex justify-content-center mt-4">
                 <div id="Tiles">
-                    <div class="title titleOne"></div>
+                    <div class="title titleOne" data-index = "0"></div>
                     <!-- <img class="inner" src="htmlPic.png"></div> -->
                     <!-- <div class = "title"></div> -->
-                    <div class=" title titleTwo">
+                    <div class=" title titleTwo" data-index = "1">
                         <!-- <img class="inner" src="htmlPic.png"> -->
                     </div>
-                    <div class=" title titleThree">
+                    <div class=" title titleThree" data-index = "2">
                         <!-- <img class="inner" src="htmlPic.png"> -->
                     </div>
-                    <div class="title titleFour">
+                    <div class="title titleFour" data-index = "3">
                         <!-- <img class="inner" src="htmlPic.png"> -->
                     </div>
-                    <div class="title titleFive">
+                    <div class="title titleFive" data-index = "4">
                         <!-- <img class="inner" src="htmlPic.png"> -->
                     </div>
-                    <div class="title titleSix">
+                    <div class="title titleSix" data-index = "5">
                         <!-- <img class="inner" src="htmlPic.png"> -->
                     </div>
-                    <div class="title titleSeven">
+                    <div class="title titleSeven" data-index = "6">
                         <!-- <img class="inner" src="htmlPic.png"> -->
                     </div>
-                    <div class="title titleEight">
+                    <div class="title titleEight" data-index = "7">
                         <!-- <img class="inner" src="htmlPic.png"> -->
                     </div>
-                    <div class="title titleNine">
+                    <div class="title titleNine" data-index = "8">
                         <!-- <img class="inner" src="htmlPic.png"> -->
                     </div>
-                    <div class="title titleTen">
+                    <div class="title titleTen" data-index = "9">
                         <!-- <img class="inner" src="htmlPic.png"> -->
                     </div>
-                    <div class="title titleEleven">
+                    <div class="title titleEleven" data-index = "10">
                         <!-- <img class="inner" src="htmlPic.png"> -->
                     </div>
-                    <div class="title titleTwelve">
+                    <div class="title titleTwelve" data-index = "11">
                         <!-- <img class="inner" src="htmlPic.png"> -->
                     </div>
-                    <div class="title titleThirteen">
+                    <div class="title titleThirteen" data-index = "12">
                         <!-- <img class="inner" src="htmlPic.png"> -->
                     </div>
-                    <div class="title titleFourteen">
+                    <div class="title titleFourteen" data-index = "13">
                         <!-- <img class="inner" src="htmlPic.png"> -->
                     </div>
-                    <div class="title titleFifteen">
+                    <div class="title titleFifteen" data-index = "14">
                         <!-- <img class="inner" src="htmlPic.png"> -->
                     </div>
-                    <div class="title titleSixteen">
+                    <div class="title titleSixteen" data-index = "15">
                         <!-- <img class="inner" src="htmlPic.png"> -->
                     </div>
                 </div>
@@ -285,18 +286,6 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script src="assets/js/technologies.js"></script>
-    <script>
-        $(".navbar-toggler").on("click", function () {
-            console.log("The small navbar was clicked");
-            // $("#Container").css("visibility", "hidden");
-            // $("#innerNav").css("visibility", "visible");
-        })
-
-        $(".title").on("click", function () {
-            // console.log("A tech button was clicked");
-            $("#myModal").modal('toggle');
-        })
-    </script>
 
 
 
