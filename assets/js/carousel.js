@@ -35,12 +35,12 @@ function rotate(e) {
         fridge();
         break;
       case 180:
-        console.log("Finfo");
-        finfo();
+        // console.log("Finfo");
+        pagerank();
         break;
       case 240:
-        console.log("PageRank");
-        pagerank();
+        // console.log("PageRank");
+        finfo();
         break;
       case 300:
         console.log("Othello");
@@ -61,12 +61,12 @@ function rotate(e) {
         othello();
         break;
       case 120:
-        console.log("PageRank");
-        pagerank();
+        // console.log("PageRank");
+        finfo();
         break;
       case 180:
-        console.log("Finfo");
-        finfo();
+        // console.log("Finfo");
+        pagerank();
         break;
       case 240:
         console.log("Fridge");
