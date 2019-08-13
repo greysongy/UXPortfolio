@@ -33,6 +33,7 @@ $(".navbar-toggler").on("click", function () {
 
 $(".title").on("click", function () {
     // console.log("A tech button was clicked");
+    emptyCards();
     displayTech(this.dataset.index)
     $("#myModal").modal('toggle');
     // console.log("Data attribute" + this.dataset.index);
@@ -55,6 +56,12 @@ function displayTech(index) {
     </div > `);
         $("#section" + i).append(newCard);
         // $("section1").append("<p>Test text</p>");
+    }
+}
+
+function emptyCards() {
+    for(var i = 0; i < 6; i++) {
+        $("#section" + i).empty();
     }
 }
 
