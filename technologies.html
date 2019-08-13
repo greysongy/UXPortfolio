@@ -11,70 +11,73 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/techResponsive.css">
     <!-- <link href = "assets/css/reset.css" rel = "stylesheet"> -->
     <link rel="stylesheet" type="text/css" href="assets/css/technology.css">
-    <title>Document</title>
+    <title>Technologies Page</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-lg"
-        style="background-color: white; font-family: 'Pacifico', cursive;">
+    <div id="page-container">
+        <div id="content-wrap">
+            <nav class="navbar navbar-light navbar-expand-lg"
+                style="background-color: white; font-family: 'Pacifico', cursive;">
 
-        <div class="d-flex flex-grow-1">
-            <span class="w-100 d-lg-none d-block">
-            </span>
-            <a class="navbar-brand d-none d-lg-inline-block" id="name" href="#">
-                Greyson Gerhard-Young
-            </a>
-            <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" id="shortName" href="#">
-                Greyson
-            </a>
-            <div class="w-100 text-right">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <div class="d-flex flex-grow-1">
+                    <span class="w-100 d-lg-none d-block">
+                    </span>
+                    <a class="navbar-brand d-none d-lg-inline-block" id="name" href="#">
+                        Greyson Gerhard-Young
+                    </a>
+                    <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" id="shortName" href="#">
+                        Greyson
+                    </a>
+                    <div class="w-100 text-right">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+                    <ul id="innerNav" class="navbar-nav ml-auto flex-nowrap">
+                        <li class="nav-item">
+                            <a href="technologies.html" class="nav-link m-2 menu-item nav-active ">Technologies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="experience.html" class="nav-link m-2 menu-item">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link m-2 menu-item">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="connect.html" class="nav-link m-2 menu-item">Connect</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+
+            <div class="modal" tabindex="-1" role="dialog" id="myModal">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Modal title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Modal body text goes here.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
-            <ul id="innerNav" class="navbar-nav ml-auto flex-nowrap">
-                <li class="nav-item">
-                    <a href="technologies.html" class="nav-link m-2 menu-item nav-active ">Technologies</a>
-                </li>
-                <li class="nav-item">
-                    <a href="experience.html" class="nav-link m-2 menu-item">Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link m-2 menu-item">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a href="connect.html" class="nav-link m-2 menu-item">Connect</a>
-                </li>
-            </ul>
-        </div>
 
-    </nav>
-
-    <div class="modal" tabindex="-1" role="dialog" id="myModal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>Modal body text goes here.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <!-- <nav class="navbar navbar-expand-md navbar-light bg-light">
         <a href="#" class="navbar-brand">
             Greyson Gerhard-Young
         </a>
@@ -96,68 +99,71 @@
     </nav> -->
 
 
-    <div id="Container" class="d-flex justify-content-center mt-4">
-        <div id="Tiles">
-            <div class="title titleOne"></div>
-            <!-- <img class="inner" src="htmlPic.png"></div> -->
-            <!-- <div class = "title"></div> -->
-            <div class=" title titleTwo">
-                <!-- <img class="inner" src="htmlPic.png"> -->
-            </div>
-            <div class=" title titleThree">
-                <!-- <img class="inner" src="htmlPic.png"> -->
-            </div>
-            <div class="title titleFour">
-                <!-- <img class="inner" src="htmlPic.png"> -->
-            </div>
-            <div class="title titleFive">
-                <!-- <img class="inner" src="htmlPic.png"> -->
-            </div>
-            <div class="title titleSix">
-                <!-- <img class="inner" src="htmlPic.png"> -->
-            </div>
-            <div class="title titleSeven">
-                <!-- <img class="inner" src="htmlPic.png"> -->
-            </div>
-            <div class="title titleEight">
-                <!-- <img class="inner" src="htmlPic.png"> -->
-            </div>
-            <div class="title titleNine">
-                <!-- <img class="inner" src="htmlPic.png"> -->
-            </div>
-            <div class="title titleTen">
-                <!-- <img class="inner" src="htmlPic.png"> -->
-            </div>
-            <div class="title titleEleven">
-                <!-- <img class="inner" src="htmlPic.png"> -->
-            </div>
-            <div class="title titleTwelve">
-                <!-- <img class="inner" src="htmlPic.png"> -->
-            </div>
-            <div class="title titleThirteen">
-                <!-- <img class="inner" src="htmlPic.png"> -->
-            </div>
-            <div class="title titleFourteen">
-                <!-- <img class="inner" src="htmlPic.png"> -->
-            </div>
-            <div class="title titleFifteen">
-                <!-- <img class="inner" src="htmlPic.png"> -->
-            </div>
-            <div class="title titleSixteen">
-                <!-- <img class="inner" src="htmlPic.png"> -->
+            <div id="Container" class="d-flex justify-content-center mt-4">
+                <div id="Tiles">
+                    <div class="title titleOne"></div>
+                    <!-- <img class="inner" src="htmlPic.png"></div> -->
+                    <!-- <div class = "title"></div> -->
+                    <div class=" title titleTwo">
+                        <!-- <img class="inner" src="htmlPic.png"> -->
+                    </div>
+                    <div class=" title titleThree">
+                        <!-- <img class="inner" src="htmlPic.png"> -->
+                    </div>
+                    <div class="title titleFour">
+                        <!-- <img class="inner" src="htmlPic.png"> -->
+                    </div>
+                    <div class="title titleFive">
+                        <!-- <img class="inner" src="htmlPic.png"> -->
+                    </div>
+                    <div class="title titleSix">
+                        <!-- <img class="inner" src="htmlPic.png"> -->
+                    </div>
+                    <div class="title titleSeven">
+                        <!-- <img class="inner" src="htmlPic.png"> -->
+                    </div>
+                    <div class="title titleEight">
+                        <!-- <img class="inner" src="htmlPic.png"> -->
+                    </div>
+                    <div class="title titleNine">
+                        <!-- <img class="inner" src="htmlPic.png"> -->
+                    </div>
+                    <div class="title titleTen">
+                        <!-- <img class="inner" src="htmlPic.png"> -->
+                    </div>
+                    <div class="title titleEleven">
+                        <!-- <img class="inner" src="htmlPic.png"> -->
+                    </div>
+                    <div class="title titleTwelve">
+                        <!-- <img class="inner" src="htmlPic.png"> -->
+                    </div>
+                    <div class="title titleThirteen">
+                        <!-- <img class="inner" src="htmlPic.png"> -->
+                    </div>
+                    <div class="title titleFourteen">
+                        <!-- <img class="inner" src="htmlPic.png"> -->
+                    </div>
+                    <div class="title titleFifteen">
+                        <!-- <img class="inner" src="htmlPic.png"> -->
+                    </div>
+                    <div class="title titleSixteen">
+                        <!-- <img class="inner" src="htmlPic.png"> -->
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
-    <footer class="d-flex justify-content-center">
-        <a id="gmailPic" class="" href="mailto:greyson_gerhard-young@brown.edu" target="_blank"><img
-                src="assets/images/bwGmail.jpeg"></a>
-        <a id="linkedInPic" class="" href="https://www.linkedin.com/in/greyson-gerhard-young/" target="_blank"><img
-                src="assets/images/linkedInBW.png"></a>
-        <a id="gitPic" href="https://github.com/greysongy" target="_blank"><img src="assets/images/gitLogo.png"></a>
-        <a id="fbPic" class="" href="https://www.facebook.com/people/Greyson-Gerhard-Young/100011415572276"
-            target="_blank"><img src="assets/images/fbBW.png"></a>
-    </footer>
+        <footer class="d-flex justify-content-center">
+            <a id="gmailPic" class="" href="mailto:greyson_gerhard-young@brown.edu" target="_blank"><img id="innerGPic"
+                    src="assets/images/bwGmail.jpeg" alt="gmail"></a>
+            <a id="linkedInPic" class="" href="https://www.linkedin.com/in/greyson-gerhard-young/" target="_blank"><img
+                    id="innerLPic" src="assets/images/linkedInBW.png" alt='linkedin'></a>
+            <a id="gitPic" href="https://github.com/greysongy" target="_blank"><img id="innerGitPic"
+                    src="assets/images/gitLogo.png" alt="git"></a>
+            <a id="fbPic" class="" href="https://www.facebook.com/people/Greyson-Gerhard-Young/100011415572276"
+                target="_blank"><img id="innerFPic" src="assets/images/fbBW.png" alt="facebook"></a>
+        </footer>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
