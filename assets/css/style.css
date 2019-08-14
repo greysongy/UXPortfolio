@@ -246,3 +246,14 @@ display: unset;
 .styledText {
   font-family: 'Playfair Display', serif;
 }
+
+#outerThree {
+	/* position: absolute; */
+	/* margin-left: -20px; */
+}
+
+#three-container {
+  /* position: absolute; */
+  margin-left: -200px;
+  margin-top: -100px;
+}

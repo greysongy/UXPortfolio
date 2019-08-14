@@ -14,89 +14,106 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900&display=swap" rel="stylesheet">
     <!-- <link href = "assets/css/reset.css" rel = "stylesheet"> -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/connectResponsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r75/three.min.js"></script>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js> </script> <script
+        src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/175711/bas.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/175711/OrbitControls-2.js"></script>
     <title>Portfolio Page</title>
 </head>
 
 <body>
+    <div id="page-container">
+        <div id="content-wrap">
+            <nav class="navbar navbar-light navbar-expand-lg"
+                style="background-color: white; font-family: 'Playfair Display', serif;">
+                <!-- <a class="navbar-brand abs" href="#">Greyson Gerhard-Young</a> -->
 
-    <nav class="navbar navbar-light navbar-expand-lg"
-        style="background-color: white; font-family: 'Playfair Display', serif;">
-        <!-- <a class="navbar-brand abs" href="#">Greyson Gerhard-Young</a> -->
-
-        <div class="d-flex flex-grow-1">
-            <span class="w-100 d-lg-none d-block">
-                <!-- hidden spacer to center brand on mobile --></span>
-            <a class="navbar-brand d-none d-lg-inline-block" id="name" href="#">
-                Greyson Gerhard-Young
-            </a>
-            <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" id="shortName" href="#">
-                Greyson
-            </a>
-            <div class="w-100 text-right">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-        </div>
-        <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
-            <ul class="navbar-nav ml-auto flex-nowrap">
-                <li class="nav-item">
-                    <a href="technologies.html" class="nav-link m-2 menu-item nav-active ">Technologies</a>
-                </li>
-                <li class="nav-item">
-                    <a href="experience.html" class="nav-link m-2 menu-item">Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link m-2 menu-item">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a href="connect.html" class="nav-link m-2 menu-item">Connect</a>
-                </li>
-            </ul>
-        </div>
-
-    </nav>
-
-    <div class="container">
-        <div class="col-md-12">
-            <div class="upper row d-flex justify-content-center">
-                <h4 style = "font-family: 'Playfair Display', serif;">Click on an icon, and let's get in touch!</h4>
-            </div>
-            <div class="lower row d-flex justify-content-center">
-                <!-- <div class="col-md-3">
-                    <a href="mailto:greyson_gerhard-young@brown.edu" target="_blank"><img class = "outerPic animated zoomIn"
-                        src="assets/images/gmailColorPic.png"></a>
-                </div> -->
-                <div class="col-md-4 d-flex justify-content-center">
-                    <a href = "https://www.linkedin.com/in/greyson-gerhard-young/" target = "_blank"><img class=" innerRight animated zoomIn" src="assets/images/liColor.png"></a>
+                <div class="d-flex flex-grow-1">
+                    <span class="w-100 d-lg-none d-block">
+                        <!-- hidden spacer to center brand on mobile --></span>
+                    <a class="navbar-brand d-none d-lg-inline-block" id="name" href="#">
+                        Greyson Gerhard-Young
+                    </a>
+                    <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" id="shortName" href="#">
+                        Greyson
+                    </a>
+                    <div class="w-100 text-right">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
                 </div>
-                <div class="col-md-4 d-flex justify-content-center">
-                    <a href = "https://github.com/greysongy" target = "_blank"><img class=" innerLeft animated zoomIn ml-1 circular--square" src="assets/images/gitColorPic.png"></a>
+                <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+                    <ul class="navbar-nav ml-auto flex-nowrap">
+                        <li class="nav-item">
+                            <a href="technologies.html" class="nav-link m-2 menu-item nav-active ">Technologies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="experience.html" class="nav-link m-2 menu-item">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link m-2 menu-item">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="connect.html" class="nav-link m-2 menu-item">Connect</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-md-4 d-flex justify-content-center">
-                    <a href = "https://www.facebook.com/people/Greyson-Gerhard-Young/100011415572276" target = "_blank"><img class=" animated zoomIn ml-1 outerRight" src="assets/images/fbC2.png"></a>
+
+            </nav>
+
+            <!-- <div class="container">
+                <div class="col-md-12">
+                    <div class="row"> -->
+
+
+            <div class="col-md-12">
+                <div class="row">
+                    <!-- <div class="col-md-2 mt-5">
+                        <p> Example Text</p>
+                        <p>More Text</p>
+                        <p> Example Text</p>
+                        <p>More Text</p>
+                        <p> Example Text</p>
+                        <p>More Text</p>
+                        <p> Example Text</p>
+                        <p>More Text</p>
+                    </div> -->
+                    <div class="col-md-9">
+                        <div id="three-container"></div>
+                    </div>
+                    <div class = "col-md-3 mt-5">
+                        <p>Text</p>
+                        <p>Text</p>
+                        <p>Text</p>
+                        <p>Text</p>
+                        <p>Text</p>
+                        <p>Text</p>
+                        <p>Text</p>
+                        <p>Text</p>
+                    </div>
                 </div>
             </div>
+
+            <!-- </div>
+                </div>
+            </div> -->
+
         </div>
+
+        <footer class="d-flex justify-content-center">
+            <a id="gmailPic" class="" href="mailto:greyson_gerhard-young@brown.edu" target="_blank"><img id="innerGPic"
+                    src="assets/images/bwGmail.jpeg" alt="gmail"></a>
+            <a id="linkedInPic" class="" href="https://www.linkedin.com/in/greyson-gerhard-young/" target="_blank"><img
+                    id="innerLPic" src="assets/images/linkedInBW.png" alt='linkedin'></a>
+            <a id="gitPic" href="https://github.com/greysongy" target="_blank"><img id="innerGitPic"
+                    src="assets/images/gitLogo.png" alt="git"></a>
+            <a id="fbPic" class="" href="https://www.facebook.com/people/Greyson-Gerhard-Young/100011415572276"
+                target="_blank"><img id="innerFPic" src="assets/images/fbBW.png" alt="facebook"></a>
+        </footer>
     </div>
-    <div class = "container mt-5">
-        <div class = "col-md-12">
-            <div class = "row d-flex justify-content-center">
-                <h4 style = "font-family: 'Playfair Display', serif;">greyson_gerhard-young@brown.edu</h4>
-            </div>
-        </div>
-    </div>
-
-    <footer class="d-flex justify-content-center">
-        <a id="gmailPic" class="" href="mailto:greyson_gerhard-young@brown.edu" target="_blank"><img
-                src="assets/images/bwGmail.jpeg"></a>
-        <a id="linkedInPic" class="" href="https://www.linkedin.com/in/greyson-gerhard-young/" target="_blank"><img
-                src="assets/images/linkedInBW.png"></a>
-        <a id="gitPic" href="https://github.com/greysongy" target="_blank"><img src="assets/images/gitLogo.png"></a>
-        <a id="fbPic" class="" href="https://www.facebook.com/people/Greyson-Gerhard-Young/100011415572276"
-            target="_blank"><img src="assets/images/fbBW.png"></a>
-    </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
@@ -104,6 +121,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="assets/js/dissolve.js"></script>
 </body>
 
 </html>
