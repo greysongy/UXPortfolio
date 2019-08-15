@@ -287,3 +287,7 @@ display: unset;
   border-color: black;
   border-radius: 25px;
 }
+
+/* #innerNav {
+  position: static;
+} */
