@@ -260,8 +260,30 @@ display: unset;
 
 #aboutText {
   font-size: 25px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 25px;
+  padding: 10px;
 }
 
 #textWrapper {
   margin-left: -100px;
+}
+
+#secondRow {
+  visibility: hidden;
+}
+
+#textTwo {
+  font-size: 25px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+#secondHeadshot {
+  border-style: solid;
+  border-color: black;
+  border-radius: 25px;
 }

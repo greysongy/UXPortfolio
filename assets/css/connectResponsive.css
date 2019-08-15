@@ -29,3 +29,13 @@
     }
 
   }
+
+  @media screen and (max-width: 1375px) {
+      #upperRow {
+         display: none;
+      }
+
+      #secondRow {
+          visibility: visible;
+      }
+  }

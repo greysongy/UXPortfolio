@@ -50,6 +50,55 @@ const tech = [
         details: ["Styled front-end designs with intrinsic HTML elements", "Used in tandem with DOM manipulation libraries like JQuery", "Applied principles to frameworks with similar syntax, like React's JSX"],
         projects: [],
         descriptions: []
+    }, 
+    {
+        name: "React",
+        image: "react2.jpg",
+        details: ["Built fully React interfaces with complex hierarchies of nested components/state", "Integrated existing React libraries (like Material UI) into full-stack applications", "Working on transitioning web applications to mobile versions with React Native"],
+        projects: [],
+        descriptions: [] 
+    }, 
+    {
+        name: "JQuery", 
+        image: "jquery2.png", 
+        details: ["Used to provide DOM manipulation for purely front-end applications", "Combined with back-end server side code to dynamically manipulate client-side views", "Integrated with three dimensional CSS to produce comprehensive aesthetic designs"], 
+        projects: [], 
+        descriptions: []
+    }, 
+    {
+        name: "CSS", 
+        image: "css.png", 
+        details: ["Integrated vast array of specific properties to improve visual appeal of various applications", "Used similar syntax to style React components", "Combined with media queries to ensure mobile responsiveness for multiple web applications"], 
+        projects: [], 
+        descriptions: []
+    }, 
+    {
+        name: "TensorFlow", 
+        image: "tensorflow.png", 
+        details: ["Coded polynomial regression model with multiple layers to estimate Uber fares from ride distance", "Working on building larger layered network to provide more accurate earnings estimates to gig workers", "Taking Deep Learning course that emphasizes building multi-layered neural networks"], 
+        projects: [], 
+        descriptions: []
+    }, 
+    {
+        name: "Bootstrap", 
+        image: "boostrap3.png", 
+        details: ["Combined inherent components with multiple full-stack applications to build smooth UI", "Implemented various versions of inherent grid system to make web applications mobile responsive", "Integrated inherent Bootstrap styling with CSS properties (with mx as an example of the contrasts in syntax)"], 
+        projects: [], 
+        descriptions: []
+    }, 
+    {
+        name: "Express", 
+        image: "express2.jpg", 
+        details: ["Created back-end servers using express functionality", "Used middleware to facilitate application routing", "Implemented alongside callbacks to ensure proper timing of requests and responses"], 
+        projects: [], 
+        descriptions: []
+    }, 
+    {
+        name: "Firebase", 
+        image: "firebase.jpg", 
+        details: ["Implemented user authentication feature on small scale application", "Stored data associated with users that could be continuously accessed and updated", "Currently learning cloud storage and realtime database features"], 
+        projects: [], 
+        descriptions: []
     }
 ]
 
