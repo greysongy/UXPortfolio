@@ -28,9 +28,21 @@
         height: 100px;
     }
 
+    #upperRow {
+        display: none;
+     }
+
+     #upperSecondRow {
+         display: none;
+     }
+
+     #secondRow {
+         visibility: visible;
+     }
+
   }
 
-  @media screen and (max-width: 1375px) {
+  /* @media screen and (max-width: 1375px) {
       #upperRow {
          display: none;
       }
@@ -38,8 +50,10 @@
       #secondRow {
           visibility: visible;
       }
-  }
+  } */
 
-  @media screen and (max-width: 475px) {
-    
-}
+  /* @media screen and (max-height: 500px) {
+    #three-container {
+        margin-top: -100px;
+    }
+} */

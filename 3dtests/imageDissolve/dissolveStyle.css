@@ -5,7 +5,7 @@ body {
 }
 
 canvas {
-	background-image: radial-gradient(#666, #333);
+	/* background-image: radial-gradient(#666, #333); */
 }
 
 #instructions {
