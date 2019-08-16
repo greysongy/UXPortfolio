@@ -99,6 +99,34 @@ const tech = [
         details: ["Implemented user authentication feature on small scale application", "Stored data associated with users that could be continuously accessed and updated", "Currently learning cloud storage and realtime database features"], 
         projects: [], 
         descriptions: []
+    }, 
+    {
+        name: "Mongoose", 
+        image: "mongoose.png", 
+        details: ["Used mongoose ORM to create strict ORM requirements on loose MongoDB data", "Provided relational functionality in a noSQL environment", "Maintained simple Mongo syntax while providing additional framework to structure data"], 
+        projects: [], 
+        descriptions: []
+    }, 
+    {
+        name: "MongoDB", 
+        image: "mongo.png", 
+        details: ["Implemented backend storage features for large-scale applications", "Used loose JSON syntax to store data and associated key-value pairs", 'Combined with ORMs like Mongoose to construct some degree of relational functionality while maintaining the intrinsic benefits of a noSQL database'], 
+        projects: [], 
+        descriptions: []
+    }, 
+    {
+        name: "MySQL", 
+        image: "mysql.jpg", 
+        details: ["Used strict relational features to manage backend of complex applications", "Coded queries in both raw SQL and in concert with wrapper ORMs", "Designed networks of relations to ensure scalability and efficiency"], 
+        projects: [], 
+        descriptions: []
+    }, 
+    {
+        name: "Sequelize", 
+        image: "sequelize.jpg", 
+        details: ["Simplified lengthy MySQL syntax into smoother format", "Used promise-based flow of control to ensure smooth interactions between frontend and backend of applications", "Maintained benefits of relational database while writing queries in a format more consistent with Javascript"], 
+        projects: [], 
+        descriptions: []
     }
 ]
 

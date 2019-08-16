@@ -291,3 +291,9 @@ display: unset;
 /* #innerNav {
   position: static;
 } */
+
+
+#closeButton {
+  background-color: red;
+  /* color: black; */
+}
