@@ -96,7 +96,7 @@ const tech = [
         image: "express2.jpg", 
         details: ["Created back-end servers using express functionality", "Used middleware to facilitate application routing", "Implemented alongside callbacks to ensure proper timing of requests and responses"], 
         projects: [fridge], 
-        descriptions: ["Constructed "]
+        descriptions: ["Constructed middleware for deployed site and production version"]
     }, 
     {
         name: "Firebase", 
@@ -109,15 +109,15 @@ const tech = [
         name: "Mongoose", 
         image: "mongoose.png", 
         details: ["Used mongoose ORM to create strict ORM requirements on loose MongoDB data", "Provided relational functionality in a noSQL environment", "Maintained simple Mongo syntax while providing additional framework to structure data"], 
-        projects: [], 
-        descriptions: []
+        projects: [fridge], 
+        descriptions: ["Modeled schemas to store user identification/unique identifiers"]
     }, 
     {
         name: "MongoDB", 
         image: "mongo.png", 
         details: ["Implemented backend storage features for large-scale applications", "Used loose JSON syntax to store data and associated key-value pairs", 'Combined with ORMs like Mongoose to construct some degree of relational functionality while maintaining the intrinsic benefits of a noSQL database'], 
-        projects: [], 
-        descriptions: []
+        projects: [fridge], 
+        descriptions: ["Created underlying infrastructure for storing users, fridges, and their ingredients"]
     }, 
     {
         name: "MySQL", 
