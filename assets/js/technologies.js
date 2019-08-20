@@ -15,13 +15,18 @@ const finfo = {
     image: "finfo2.png"
 }
 
+const fridge = {
+    name: "Fridge", 
+    image: "RecipePage.PNG"
+}
+
 const tech = [
     {
         name: "Javascript",
         image: "javascript.jpg",
         details: ["Used in tandem with Ajax and Axios for application routing and API integration", "Built distinct front-end UIs with React components and JQuery DOM manipulation", "Coded server-side algorithmic logic for multiple applications"],
-        projects: [finfo],
-        descriptions: ["Used in conjunction with JQuery to modify DOM elements/retrieve API calls"]
+        projects: [fridge, finfo],
+        descriptions: ["Function component logic, API integration, middleware routing", "Used in conjunction with JQuery to modify DOM elements/retrieve API calls"]
     }, 
     {
         name: "Python",
@@ -41,8 +46,8 @@ const tech = [
         name: "Node.js",
         image: "nodejs.jpg",
         details: ["Built multiple coupled applications with node facilitating back-end servers", "Used in tandem with multiple npm packages to provide interactive functionality for users", "Unified distinct features of MVC applications under a single programming language paradigm"],
-        projects: [],
-        descriptions: []
+        projects: [fridge],
+        descriptions: ["Concurrent execution of multiple servers/backend routing"]
     }, 
     {
         name: "HTML",
@@ -55,8 +60,8 @@ const tech = [
         name: "React",
         image: "react2.jpg",
         details: ["Built fully React interfaces with complex hierarchies of nested components/state", "Integrated existing React libraries (like Material UI) into full-stack applications", "Working on transitioning web applications to mobile versions with React Native"],
-        projects: [],
-        descriptions: [] 
+        projects: [fridge],
+        descriptions: ["Integrated with Material UI to dynamically display user ingredients/potential recipes"] 
     }, 
     {
         name: "JQuery", 
@@ -69,8 +74,8 @@ const tech = [
         name: "CSS", 
         image: "css.png", 
         details: ["Integrated vast array of specific properties to improve visual appeal of various applications", "Used similar syntax to style React components", "Combined with media queries to ensure mobile responsiveness for multiple web applications"], 
-        projects: [], 
-        descriptions: []
+        projects: [fridge], 
+        descriptions: ["Combined inherent React styling with built in Material UI styles"]
     }, 
     {
         name: "TensorFlow", 
@@ -90,8 +95,8 @@ const tech = [
         name: "Express", 
         image: "express2.jpg", 
         details: ["Created back-end servers using express functionality", "Used middleware to facilitate application routing", "Implemented alongside callbacks to ensure proper timing of requests and responses"], 
-        projects: [], 
-        descriptions: []
+        projects: [fridge], 
+        descriptions: ["Constructed "]
     }, 
     {
         name: "Firebase", 
