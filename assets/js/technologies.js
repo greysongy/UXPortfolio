@@ -20,13 +20,18 @@ const fridge = {
     image: "RecipePage.PNG"
 }
 
+const bestGig = {
+    name: "BestGig", 
+    image: "bgF.png"
+}
+
 const tech = [
     {
         name: "Javascript",
         image: "javascript.jpg",
         details: ["Used in tandem with Ajax and Axios for application routing and API integration", "Built distinct front-end UIs with React components and JQuery DOM manipulation", "Coded server-side algorithmic logic for multiple applications"],
-        projects: [fridge, finfo],
-        descriptions: ["Function component logic, API integration, middleware routing", "Used in conjunction with JQuery to modify DOM elements/retrieve API calls"]
+        projects: [fridge, bestGig, finfo],
+        descriptions: ["Function component logic, API integration, middleware routing", "Logic to dynamically display/sort results, take in reviews, statically display ML results", "Used in conjunction with JQuery to modify DOM elements/retrieve API calls"]
     }, 
     {
         name: "Python",
@@ -46,15 +51,15 @@ const tech = [
         name: "Node.js",
         image: "nodejs.jpg",
         details: ["Built multiple coupled applications with node facilitating back-end servers", "Used in tandem with multiple npm packages to provide interactive functionality for users", "Unified distinct features of MVC applications under a single programming language paradigm"],
-        projects: [fridge],
-        descriptions: ["Concurrent execution of multiple servers/backend routing"]
+        projects: [fridge, bestGig],
+        descriptions: ["Concurrent execution of multiple servers/backend routing", "Provides environment to sync data intake and routing to distinct views"]
     }, 
     {
         name: "HTML",
         image: "htmlPic.png",
         details: ["Styled front-end designs with intrinsic HTML elements", "Used in tandem with DOM manipulation libraries like JQuery", "Applied principles to frameworks with similar syntax, like React's JSX"],
-        projects: [],
-        descriptions: []
+        projects: [bestGig],
+        descriptions: ["Used combination of inherent components and Bootstrap styles to create dynamic interaction"]
     }, 
     {
         name: "React",
@@ -67,36 +72,36 @@ const tech = [
         name: "JQuery", 
         image: "jquery2.png", 
         details: ["Used to provide DOM manipulation for purely front-end applications", "Combined with back-end server side code to dynamically manipulate client-side views", "Integrated with three dimensional CSS to produce comprehensive aesthetic designs"], 
-        projects: [], 
-        descriptions: []
+        projects: [bestGig], 
+        descriptions: ["Dynamic mixture of posts, puts, and gets to retrieve and append relevant information"]
     }, 
     {
         name: "CSS", 
         image: "css.png", 
         details: ["Integrated vast array of specific properties to improve visual appeal of various applications", "Used similar syntax to style React components", "Combined with media queries to ensure mobile responsiveness for multiple web applications"], 
-        projects: [fridge], 
-        descriptions: ["Combined inherent React styling with built in Material UI styles"]
+        projects: [fridge, bestGig], 
+        descriptions: ["Combined inherent React styling with built in Material UI styles", "Flexbox/relative positioning and traditional margin, color, etc. styling"]
     }, 
     {
         name: "TensorFlow", 
         image: "tensorflow.png", 
         details: ["Coded polynomial regression model with multiple layers to estimate Uber fares from ride distance", "Working on building larger layered network to provide more accurate earnings estimates to gig workers", "Taking Deep Learning course that emphasizes building multi-layered neural networks"], 
-        projects: [], 
-        descriptions: []
+        projects: [bestGig], 
+        descriptions: ["Built polynomial regression model to estimate an Uber fare from the distance of a trip (modeled after the Tensorflow.js documentation)"]
     }, 
     {
         name: "Bootstrap", 
         image: "boostrap3.png", 
         details: ["Combined inherent components with multiple full-stack applications to build smooth UI", "Implemented various versions of inherent grid system to make web applications mobile responsive", "Integrated inherent Bootstrap styling with CSS properties (with mx as an example of the contrasts in syntax)"], 
-        projects: [], 
-        descriptions: []
+        projects: [bestGig], 
+        descriptions: ["Grid system and built in components integrated with overall layout"]
     }, 
     {
         name: "Express", 
         image: "express2.jpg", 
         details: ["Created back-end servers using express functionality", "Used middleware to facilitate application routing", "Implemented alongside callbacks to ensure proper timing of requests and responses"], 
-        projects: [fridge], 
-        descriptions: ["Constructed middleware for deployed site and production version"]
+        projects: [fridge, bestGig], 
+        descriptions: ["Constructed middleware for deployed site and production version", "Created a series of different views and routes to provide users with multiple pages of content"]
     }, 
     {
         name: "Firebase", 
@@ -123,15 +128,15 @@ const tech = [
         name: "MySQL", 
         image: "mysql.jpg", 
         details: ["Used strict relational features to manage backend of complex applications", "Coded queries in both raw SQL and in concert with wrapper ORMs", "Designed networks of relations to ensure scalability and efficiency"], 
-        projects: [], 
-        descriptions: []
+        projects: [bestGig], 
+        descriptions: ["Stored companies, reviews, users and their corresponding values/relationships"]
     }, 
     {
         name: "Sequelize", 
         image: "sequelize.jpg", 
         details: ["Simplified lengthy MySQL syntax into smoother format", "Used promise-based flow of control to ensure smooth interactions between frontend and backend of applications", "Maintained benefits of relational database while writing queries in a format more consistent with Javascript"], 
-        projects: [], 
-        descriptions: []
+        projects: [bestGig], 
+        descriptions: ["Leveraged friendlier JSON syntax to create object models with specific definitions"]
     }
 ]
 
