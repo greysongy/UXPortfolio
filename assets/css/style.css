@@ -297,3 +297,7 @@ display: unset;
   background-color: red;
   /* color: black; */
 }
+
+.subtext {
+  color: red;
+}
