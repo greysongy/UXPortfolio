@@ -75,7 +75,7 @@ const graphAlgorithms = {
 
 const sortingAlgorithms = {
     name: "Sorting Algorithms", 
-    image: "mergesort.png", 
+    image: "mergeSort.png", 
     repoLink: "", 
     academic: true
 }
