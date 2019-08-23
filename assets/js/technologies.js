@@ -121,7 +121,7 @@ const tech = [
         image: "python.png",
         details: ["Implemented numerous variations of classic algorithms with strong runtime considerations", "Worked with data structures (examples include stacks, priority queues, dictionaries, BSTs, DAGs, MSTs, etc.)", "Some experience building small-scale applications with Django and Flask"],
         projects: [graphAlgorithms, sortingAlgorithms, stackqueue, hashing, recursion, bsts], 
-        descriptions: ["Problems involving DAGs, topsort, shortest path, MSTs, and more", "Implementation of multiple sorting algorithms/analysis of their runtimes and tradeoffs", "Different implementations of stacks/queues/priority queues/them as the basis of other problems", "Building Python dictionaries/surface level analysis of the math behind their runtimes", "Variety of problems that can be divided into smaller subomponents/base cases", "Implementation of efficent searching/structure to store for future searches"]
+        descriptions: ["Problems involving DAGs, topsort, shortest path, MSTs, and more", "Implementation of multiple sorting algorithms/analysis of their runtimes and tradeoffs", "Different implementations of stacks/queues/priority queues/them as the basis of other problems", "Building Python dictionaries/surface level analysis of the math behind their runtimes", "Variety of problems that can be divided into smaller subomponents/base cases", "Implementation of efficient searching/structure to store for future searches"]
     },
     {
         name: "Java",
