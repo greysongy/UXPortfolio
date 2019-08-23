@@ -59,6 +59,55 @@ const heap = {
     academic: true
 }
 
+const tetris = {
+    name: "Tetris", 
+    image: "tetris2.png", 
+    repoLink: "", 
+    academic: true
+}
+
+const graphAlgorithms = {
+    name: "Graph/Tree Algorithms", 
+    image: "graphPic.png", 
+    repoLink: "", 
+    academic: true
+}
+
+const sortingAlgorithms = {
+    name: "Sorting Algorithms", 
+    image: "mergesort.png", 
+    repoLink: "", 
+    academic: true
+}
+
+const stackqueue = {
+    name: "Stacks/Queues", 
+    image: "stackqueue.png", 
+    repoLink: "", 
+    academic: true
+}
+
+const hashing = {
+    name: "Hashing/Dictionaries", 
+    image: "hashing.png", 
+    repoLink: "", 
+    academic: true
+}
+
+const recursion = {
+    name: "Recursion and Dynamic Programming", 
+    image: "recursion.png", 
+    repoLink: "", 
+    academic: true
+}
+
+const bsts = {
+    name: "Binary Search/BSTs", 
+    image: "bst.jpg", 
+    repoLink: "", 
+    academic: true
+}
+
 const tech = [
     {
         name: "Javascript",
@@ -71,15 +120,15 @@ const tech = [
         name: "Python",
         image: "python.png",
         details: ["Implemented numerous variations of classic algorithms with strong runtime considerations", "Worked with data structures (examples include stacks, priority queues, dictionaries, BSTs, DAGs, MSTs, etc.)", "Some experience building small-scale applications with Django and Flask"],
-        projects: [],
-        descriptions: []
+        projects: [graphAlgorithms, sortingAlgorithms, stackqueue, hashing, recursion, bsts], 
+        descriptions: ["Problems involving DAGs, topsort, shortest path, MSTs, and more", "Implementation of multiple sorting algorithms/analysis of their runtimes and tradeoffs", "Different implementations of stacks/queues/priority queues/them as the basis of other problems", "Building Python dictionaries/surface level analysis of the math behind their runtimes", "Variety of problems that can be divided into smaller subomponents/base cases", "Implementation of efficent searching/structure to store for future searches"]
     },
     {
         name: "Java",
         image: "java.jpg",
         details: ["Designed elaborate applications using object-oriented paradigm", "Implemented complex algorithms (machine learning variants, PageRank, etc.) with rigorous unit testing", "Used JavaFX to design GUIs for multiple interactive applications"],
-        projects: [othello, decisionTree, pagerank, heap],
-        descriptions: ["Object-Oriented design with over 15 classes to combine game logic and multiple levels of AI opponent", "Recursive logic to mathematically calculate information gain and entropy, before iteratively deciding which attribute to split on", "Implemented directed/undirected graph with adjacency matrix as basis for subsequent Prim-Jarnik and Page Rank algorithms", "Implementation of a priority queue using underlying heap structure with rigorours unit testing"]
+        projects: [othello, decisionTree, pagerank, heap, tetris],
+        descriptions: ["Object-Oriented design with over 15 classes to combine game logic and multiple levels of AI opponent", "Recursive logic to mathematically calculate information gain and entropy, before iteratively deciding which attribute to split on", "Implemented directed/undirected graph with adjacency matrix as basis for subsequent Prim-Jarnik and Page Rank algorithms", "Implementation of a priority queue using underlying heap structure with rigorours unit testing", "Game logic modeling board as a two-dimensional array of pieces"]
     },
     {
         name: "Node.js",
