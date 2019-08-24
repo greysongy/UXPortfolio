@@ -40,7 +40,7 @@ const othello = {
 
 const decisionTree = {
     name: "Decision Tree", 
-    image: "decisionTree.png", 
+    image: "decisiontree.png", 
     repoLink: "", 
     academic: true
 }
