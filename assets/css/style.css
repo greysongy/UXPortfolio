@@ -301,3 +301,9 @@ display: unset;
 .subtext {
   color: red;
 }
+
+.projectCard {
+  border-width: 2px;  
+  border-color: black;   
+  border-style: solid;
+}
