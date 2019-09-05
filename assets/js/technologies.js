@@ -95,7 +95,7 @@ const hashing = {
 }
 
 const recursion = {
-    name: "Recursion and Dynamic Programming", 
+    name: "Recursive Problems", 
     image: "recursion.png", 
     repoLink: "", 
     academic: true
@@ -115,13 +115,20 @@ const jobFinder = {
     academic: false
 }
 
+const clMarketplace = {
+    name: "Command-Line Marketplace", 
+    image: "clMarketplaceHome.png", 
+    repoLink: "https://github.com/greysongy/command-line-marketplace", 
+    academic: false
+}
+
 const tech = [
     {
         name: "Javascript",
         image: "javascript.jpg",
         details: ["Used in tandem with Ajax and Axios for application routing and API integration", "Built distinct front-end UIs with React components and JQuery DOM manipulation", "Coded server-side algorithmic logic for multiple applications"],
-        projects: [fridge, bestGig, finfo, jobFinder],
-        descriptions: ["Function component logic, API integration, middleware routing", "Logic to dynamically display/sort results, take in reviews, statically display ML results", "Dynamic logic to query APIs, conditionally display stored stocks/available flights", "Algorithm to compare input scores to company values and return appropriate result"]
+        projects: [fridge, bestGig, finfo, jobFinder, clMarketplace],
+        descriptions: ["Function component logic, API integration, middleware routing", "Logic to dynamically display/sort results, take in reviews, statically display ML results", "Dynamic logic to query APIs, conditionally display stored stocks/available flights", "Algorithm to compare input scores to company values and return appropriate result", "Coded conditional interactive logic using npm inquirer package to emulate manager-inventory interactions"]
     },
     {
         name: "Python",
@@ -141,8 +148,8 @@ const tech = [
         name: "Node.js",
         image: "nodejs.jpg",
         details: ["Built multiple coupled applications with node facilitating back-end servers", "Used in tandem with multiple npm packages to provide interactive functionality for users", "Unified distinct features of MVC applications under a single programming language paradigm"],
-        projects: [fridge, bestGig, jobFinder],
-        descriptions: ["Concurrent execution of multiple servers/backend routing", "Provides environment to sync data intake and routing to distinct views", "Runtime environment for backend server independent of browser logic"]
+        projects: [fridge, bestGig, jobFinder, clMarketplace],
+        descriptions: ["Concurrent execution of multiple servers/backend routing", "Provides environment to sync data intake and routing to distinct views", "Runtime environment for backend server independent of browser logic", "Created environment to execute javascript independent of the browser"]
     },
     {
         name: "HTML",
@@ -218,8 +225,8 @@ const tech = [
         name: "MySQL",
         image: "mysql.jpg",
         details: ["Used strict relational features to manage backend of complex applications", "Coded queries in both raw SQL and in concert with wrapper ORMs", "Designed networks of relations to ensure scalability and efficiency"],
-        projects: [bestGig],
-        descriptions: ["Stored companies, reviews, users and their corresponding values/relationships"]
+        projects: [bestGig, clMarketplace],
+        descriptions: ["Stored companies, reviews, users and their corresponding values/relationships", "Wrote raw queries to create table and seed initial data, along with framework to continuously update"]
     },
     {
         name: "Sequelize",
@@ -260,7 +267,9 @@ function displayTech(index) {
             <div class='card-body'>
                 <h3 class='card-title styledText'>${element.projects[i].name}</h3>
                 <p class='card-text styledText'>${element.descriptions[i]}</p>
+                <div class = "gitWrapper">
                 <a href=${element.projects[i].repoLink} target = '_blank' class='btn btn-primary' >Explore the Git Repo</a>
+                </div>
             </div>
     </div > `);
         }

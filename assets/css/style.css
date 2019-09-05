@@ -306,4 +306,14 @@ display: unset;
   border-width: 1px;  
   border-color: black;   
   border-style: solid;
+  height: 450px;
+}
+
+/* .card-body {
+  position: relative;
+} */
+
+.gitWrapper {
+  position: absolute;
+  bottom: 10px;
 }
