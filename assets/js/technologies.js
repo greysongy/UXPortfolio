@@ -122,13 +122,20 @@ const clMarketplace = {
     academic: false
 }
 
+const giphy = {
+    name: "Giphy", 
+    image: "giphyHome.png", 
+    repoLink: "https://github.com/greysongy/giphyProject", 
+    academic: false
+}
+
 const tech = [
     {
         name: "Javascript",
         image: "javascript.jpg",
         details: ["Used in tandem with Ajax and Axios for application routing and API integration", "Built distinct front-end UIs with React components and JQuery DOM manipulation", "Coded server-side algorithmic logic for multiple applications"],
-        projects: [fridge, bestGig, finfo, jobFinder, clMarketplace],
-        descriptions: ["Function component logic, API integration, middleware routing", "Logic to dynamically display/sort results, take in reviews, statically display ML results", "Dynamic logic to query APIs, conditionally display stored stocks/available flights", "Algorithm to compare input scores to company values and return appropriate result", "Coded conditional interactive logic using npm inquirer package to emulate manager-inventory interactions"]
+        projects: [fridge, bestGig, finfo, jobFinder, clMarketplace, giphy],
+        descriptions: ["Function component logic, API integration, middleware routing", "Logic to dynamically display/sort results, take in reviews, statically display ML results", "Dynamic logic to query APIs, conditionally display stored stocks/available flights", "Algorithm to compare input scores to company values and return appropriate result", "Coded conditional interactive logic using npm inquirer package to emulate manager-inventory interactions", "Used promise based responses and JQuery logic to conditionally render gifs representing a particular emotion"]
     },
     {
         name: "Python",
@@ -155,8 +162,8 @@ const tech = [
         name: "HTML",
         image: "htmlPic.png",
         details: ["Styled front-end designs with intrinsic HTML elements", "Used in tandem with DOM manipulation libraries like JQuery", "Applied principles to frameworks with similar syntax, like React's JSX"],
-        projects: [bestGig, finfo, jobFinder],
-        descriptions: ["Used combination of inherent components and Bootstrap styles to create dynamic interaction", "Combinations of intrinsic HTML elements and wrapper divs to ensure proper rendering", "Styled symmetric layout for both discover and survey pages"]
+        projects: [bestGig, finfo, jobFinder, giphy],
+        descriptions: ["Used combination of inherent components and Bootstrap styles to create dynamic interaction", "Combinations of intrinsic HTML elements and wrapper divs to ensure proper rendering", "Styled symmetric layout for both discover and survey pages", "Used inherent elements to style overall layout of main page"]
     },
     {
         name: "React",
@@ -169,15 +176,15 @@ const tech = [
         name: "JQuery",
         image: "jquery2.png",
         details: ["Used to provide DOM manipulation for purely front-end applications", "Combined with back-end server side code to dynamically manipulate client-side views", "Integrated with three dimensional CSS to produce comprehensive aesthetic designs"],
-        projects: [bestGig, finfo, jobFinder],
-        descriptions: ["Dynamic mixture of posts, puts, and gets to retrieve and append relevant information", "Frontend DOM manipulation/ajax calls to retrieve information relevant to a particular user", "Logic to intake user survery values and set appropriate post request"]
+        projects: [bestGig, finfo, jobFinder, giphy],
+        descriptions: ["Dynamic mixture of posts, puts, and gets to retrieve and append relevant information", "Frontend DOM manipulation/ajax calls to retrieve information relevant to a particular user", "Logic to intake user survery values and set appropriate post request", "On click logic to display/pause gifs, Ajax calls to render information retrieved from APIs"]
     },
     {
         name: "CSS",
         image: "css.png",
         details: ["Integrated vast array of specific properties to improve visual appeal of various applications", "Used similar syntax to style React components", "Combined with media queries to ensure mobile responsiveness for multiple web applications"],
-        projects: [fridge, bestGig, finfo, jobFinder],
-        descriptions: ["Combined inherent React styling with built in Material UI styles", "Flexbox/relative positioning and traditional margin, color, etc. styling", "Combination of flexbox properties, classes, ids, and specific properties to give elements various styles", "Individual element stying through mixture of classes and ids"]
+        projects: [fridge, bestGig, finfo, jobFinder, giphy],
+        descriptions: ["Combined inherent React styling with built in Material UI styles", "Flexbox/relative positioning and traditional margin, color, etc. styling", "Combination of flexbox properties, classes, ids, and specific properties to give elements various styles", "Individual element stying through mixture of classes and ids", "Tweaked small display elements while rendering smooth background"]
     },
     {
         name: "TensorFlow",
@@ -190,8 +197,8 @@ const tech = [
         name: "Bootstrap",
         image: "boostrap3.png",
         details: ["Combined inherent components with multiple full-stack applications to build smooth UI", "Implemented various versions of inherent grid system to make web applications mobile responsive", "Integrated inherent Bootstrap styling with CSS properties (with mx as an example of the contrasts in syntax)"],
-        projects: [bestGig, finfo, jobFinder],
-        descriptions: ["Grid system and built in components integrated with overall layout", "Grid system/intrinsic styling to render elements in appropriate locations", "Grid system for responsive layout on multiple pages"]
+        projects: [bestGig, finfo, jobFinder, giphy],
+        descriptions: ["Grid system and built in components integrated with overall layout", "Grid system/intrinsic styling to render elements in appropriate locations", "Grid system for responsive layout on multiple pages", "Used grid system/inherent components to make application mobile responsive"]
     },
     {
         name: "Express",
