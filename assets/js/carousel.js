@@ -88,10 +88,10 @@ function rotate(e) {
   }
 
   function decisionTree() {
-    $("#projectText").text("Decision Tree");
+    $("#projectText").text("Iterative Design");
     $("#codeLink").hide();
     $("#codeShow").text("Code Upon Request");
-    $("#codeDescription").text("Machine Learning implementation of ID3 Algorithm with > 95% accuracy on test data");
+    $("#codeDescription").text("Redesign of the Listle interface, which allows users to consume stories in audio format");
   }
 
   function fridge() {
@@ -113,10 +113,10 @@ function rotate(e) {
   }
 
   function pagerank() {
-    $("#projectText").text("PageRank");
+    $("#projectText").text("Personas and Storyboarding");
     $("#codeLink").hide();
     $("#codeShow").text("Code Upon Request");
-    $("#codeDescription").text("Google's PageRank algorithm implemented on a directed graph built with adjacency matrix");
+    $("#codeDescription").text("Recreating user behavior/mental models to improve a gym mat interface");
   }
 
   function othello() {
