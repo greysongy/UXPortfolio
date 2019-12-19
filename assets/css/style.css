@@ -317,3 +317,17 @@ display: unset;
   position: absolute;
   bottom: 10px;
 }
+
+#newProfilePic {
+  margin-top: 50px;
+}
+
+#aboutContent {
+  margin-top: 50px;
+  /* margin-left: 50px; */
+}
+
+#aboutText {
+  margin-left: 100px;
+  border: none !important;
+}
