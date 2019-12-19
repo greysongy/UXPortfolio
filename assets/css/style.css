@@ -330,6 +330,7 @@ display: unset;
 #aboutText {
   margin-left: 100px;
   border: none !important;
+  font-family: 'Archivo Narrow', sans-serif;
 }
 
 .cardImage {

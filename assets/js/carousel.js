@@ -105,11 +105,11 @@ function rotate(e) {
   }
 
   function finfo() {
-    $("#projectText").text("Finfo");
+    $("#projectText").text("Generative Adversarial Network");
     $("#codeShow").text("Git Repo: ");
     $("#codeLink").attr("href", "https://github.com/greysongy/finfo");
     $("#codeLink").show();
-    $("#codeDescription").text("Site for authenticated users to consolidate financial and travel information");
+    $("#codeDescription").text("Generator/discriminator model architecture that produce synthesized fake images");
   }
 
   function pagerank() {
