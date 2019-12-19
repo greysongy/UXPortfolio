@@ -275,7 +275,7 @@ function displayTech(index) {
                 <h3 class='card-title styledText'>${element.projects[i].name}</h3>
                 <p class='card-text styledText'>${element.descriptions[i]}</p>
                 <div class = "gitWrapper">
-                <a href=${element.projects[i].repoLink} target = '_blank' class='btn btn-primary' >Explore the Git Repo</a>
+                <a href=${element.projects[i].repoLink} target = '_blank' class='btn btn-primary styledText' >Explore the Git Repo</a>
                 </div>
             </div>
     </div > `);
