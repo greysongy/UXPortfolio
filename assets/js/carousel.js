@@ -120,10 +120,10 @@ function rotate(e) {
   }
 
   function othello() {
-    $("#projectText").text("Othello");
+    $("#projectText").text("Craigslist Redesign");
     $("#codeLink").hide();
     $("#codeShow").text("Code Upon Request");
-    $("#codeDescription").text("Othello with varying levels of AI computer players");
+    $("#codeDescription").text("Mobile responsive redesign of a classically clunky interface");
   }
 }
 
