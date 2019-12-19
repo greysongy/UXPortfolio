@@ -1,5 +1,5 @@
 # Portfolio
-[Explore my work!](https://greysongy.github.io/updatedPortfolio/)
+[Explore my work!](https://greysongy.github.io/UXPortfolio/)
 
 ![Portfolio Image](assets/images/portfolioPic3.png)
 
